@@ -1,0 +1,53 @@
+/* ---------------------------------------------------------------------- */
+
+/* -----------------------------menu stylings---------------------------- */
+
+
+#hidden {
+    display: none;
+}
+
+#menu {
+    width: 2rem;
+    height: 2rem;
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu .menu-icon :first-child,
+.menu-icon :last-child {
+    stroke-dasharray: 46;
+    stroke-dashoffset: 16;
+    transition: transform 0.3s cubic-bezier(.17, .84, .44, 1)
+}
+
+.menu:hover .menu-icon line,
+.menu:active .menu-icon line {
+    fill: #0e1647;
+    stroke: #0e1647;
+}
+
+.menu:hover .menu-icon :first-child,
+.menu:active .menu-icon :first-child {
+    transform: translateX(-22px)
+}
+
+.menu:hover .menu-icon :last-child,
+.menu:active .menu-icon :last-child {
+    transform: translateX(22px)
+}
+
+
+/* ---------------------------------------------------------------------- */
+
+@media (min-width: 640px) {
+
+    #menu {
+        width: 3rem;
+        height: 3rem;
+    }
+}

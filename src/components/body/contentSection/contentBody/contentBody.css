@@ -1,0 +1,22 @@
+.border1 {
+    color: rgb(255, 255, 255 / 1);
+    border-left-width: 10px;
+    border-right-width: 10px;
+    --tw-border-opacity: 1;
+    border-color: rgb(215 247 119 / var(--tw-border-opacity));
+    margin-bottom: 70px;
+}
+
+h1 {
+    margin-bottom: 0;
+    font-weight: 500;
+    margin: 0;
+}
+
+@media (min-width: 768px) {
+    h1 {
+        font-size: 3.5rem;
+        line-height: 4.05rem;
+        margin-bottom: 1.5rem;
+    }
+}

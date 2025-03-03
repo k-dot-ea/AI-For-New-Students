@@ -1,0 +1,26 @@
+#video-div {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    background-color: blue;
+}
+
+.video-cover {
+    position: absolute;
+    object-fit: cover;
+    background-color: #0000004d;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+.video-object {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    aspect-ratio: 16/9;
+    z-index: 0;
+    background: url('../../../../assets/images/UniHull_Poster.webp') no-repeat center center;
+    background-size: cover;
+}

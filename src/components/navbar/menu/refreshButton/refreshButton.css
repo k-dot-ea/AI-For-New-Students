@@ -1,0 +1,38 @@
+#hidden {
+    display: none;
+}
+
+#refresh {
+    transform: rotate(90deg);
+    background-color: transparent;
+}
+
+#refresh-button {
+    width: 2rem;
+    height: 2rem;
+    cursor: pointer;
+    background-color: transparent;
+    position: relative;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.refreshDefault {
+    display: block;
+}
+
+.refreshActive {
+    display: none;
+}
+
+.refresh-button:hover .refreshActive,
+.refresh-button:active .refreshActive {
+    display: block;
+}
+
+.refresh-button:hover .refreshDefault,
+.refresh-button:active .refreshDefault {
+    display: none;
+}
