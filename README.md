@@ -14,7 +14,7 @@ This project is an AI chatbot web application designed for new students at the U
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/yourproject.git
+   git clone https://github.com/k-dot-ea/AI-For-New-Students.git
    ```
 2. Navigate to the project directory:
    ```bash
@@ -35,11 +35,11 @@ Then open your browser and navigate to `http://localhost:5173`.
 
 ## Features
 
+- **WatsonX Chatbot Integration**: The application integrates the WatsonX chatbot, configured with an `integrationID`, `region`, and `serviceInstanceID`. The chatbot opens by default and features a responsive layout. The `WebChatCustomElement` is used to render the chatbot, with animations managed through the `viewChangeHandler` function. The styling for the chatbot is defined in the CSS, ensuring it fits seamlessly within the application.
 - **Video Playback**: The application includes a video player that plays a video sourced from the assets. The video is set to autoplay, loop, and play inline.
 - **Pause/Play Functionality**: A pause button allows users to toggle between pausing and playing the video. The button's appearance changes based on the video's state.
 - **Dynamic SVG Icon**: The pause button features a dynamic SVG icon that visually indicates whether the video is currently playing or paused.
 - **Modular Structure**: The application is organized into separate components, including `Body`, `VideoSection`, `Video`, and `PauseButton`, promoting modularity and maintainability.
-- **WatsonX Chatbot Integration**: The application integrates the WatsonX chatbot, configured with an `integrationID`, `region`, and `serviceInstanceID`. The chatbot opens by default and features a responsive layout. The `WebChatCustomElement` is used to render the chatbot, with animations managed through the `viewChangeHandler` function. The styling for the chatbot is defined in the CSS, ensuring it fits seamlessly within the application.
 
 ## Contributing
 
@@ -61,3 +61,27 @@ Then open your browser and navigate to `http://localhost:5173`.
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Deployment to GitHub Pages
+
+To deploy this application to GitHub Pages, follow these steps:
+
+1. Install the `gh-pages` package:
+   ```bash
+   npm install --save gh-pages
+   ```
+
+2. Add the following properties to the `package.json` file:
+   ```json
+   "homepage": "https://k-dot-ea.github.io/AI-For-New-Students/",
+   "scripts": {
+     "predeploy": "npm run build",
+     "deploy": "gh-pages -d dist"
+   }
+   ```
+
+3. Deploy the application:
+   ```bash
+   npm run deploy
+   ```
+This will deploy the application to the GitHub Pages site specified in the `homepage` property.
