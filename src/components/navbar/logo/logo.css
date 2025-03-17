@@ -23,5 +23,5 @@
 
 /* Hover effect to scale the image */
 .homepageimg:hover {
-    transform: scale(1.1); /* Slight zoom effect on hover */
+    transform: scale(1.1); /* Slight zooming effect on hover */
 }
