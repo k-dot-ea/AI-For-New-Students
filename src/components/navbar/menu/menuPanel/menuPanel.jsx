@@ -4,6 +4,8 @@ import QuickLinks from './quickLinks/quickLinks'
 import SocialLinks from './socialLinks/socialLinks'
 import './menuPanel.css'
 
+
+
 const MenuPanel = () => {
 
     return (
@@ -20,6 +22,7 @@ const MenuPanel = () => {
                 {/* <MenuList /> */}
                 <QuickLinks />
                 <SocialLinks />
+            
             </div>
         </div>
     );

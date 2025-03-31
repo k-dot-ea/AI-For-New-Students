@@ -1,0 +1,40 @@
+.menu-panel {
+   
+    width: 300px;
+    padding: 20px;
+    height: 60vh; /* Full height */
+}
+
+.menu-item {
+    font-size: 18px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Spacing for the arrow */
+    padding: 15px;
+    color: #B0B0B0;
+    text-decoration: none;
+    cursor: pointer;
+    transition: color 0.3s ease-in-out;
+}
+
+.menu-item:hover {
+    color: #FFFFFF; /* White on hover */
+    font-weight: bold;
+}
+
+.active {
+    font-weight: bold;
+    color: #FFFFFF;
+}
+
+.arrow {
+    font-weight: bold;
+    margin-left: auto; /* Aligns to the right */
+}
+
+.menu-item::after {
+    content: '>'; /* Right arrow */
+    font-weight: bold;
+    margin-left: auto; /* Aligns to the right */
+}
