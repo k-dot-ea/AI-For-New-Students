@@ -1,27 +1,27 @@
 /* logo.css */
 
 /* Container for the logo */
-#homepage {
-    position: relative;
+/* #homepage {
+    position: absolute;
     text-align: center;
-}
+} */
 
 /* Styling for the logo image */
-.homepageimg {
-    display: inline-block;
-    max-width: 100%;
-    height: auto;
-    transition: transform 0.3s ease;
-    width: 10px;  /* Reduced width */
+/*.homepageimg {
+    /*display: inline-block;
+    /*max-width: 100%;
+    /*height: auto;
+    /*transition: transform 0.3s ease;
+    /*width: 10px;  /* Reduced width */
     
     
-    position: fixed;  /* Fix the position of the image */
-    top: 0;  /* Adjust as needed */
-    left: auto; /* Adjust as needed */
-    z-index: 1000;  /* Ensure it's on top of other elements */
-}
+    /*position: fixed;  /* Fix the position of the image */
+    /*top: 0;  /* Adjust as needed */
+    /*left: auto; /* Adjust as needed */
+    /*z-index: 1000;  /* Ensure it's on top of other elements */
+/*}
 
 /* Hover effect to scale the image */
-.homepageimg:hover {
+/* .homepageimg:hover {
     transform: scale(1.1); /* Slight zooming effect on hover */
-}
+/*}

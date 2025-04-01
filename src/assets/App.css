@@ -25,7 +25,7 @@ body {
 /* ---------------------------------------------------------------------- */
 
 /* ----------------------------webchat stylings-------------------------- */
-.WebChatContainer {
+/* .WebChatContainer {
   position: absolute;
   left: 7.5%;
   right: 5%;
@@ -33,6 +33,15 @@ body {
   bottom: 3%;
   z-index: 60;
   border: none;
+} */
+
+.WebChatContainer {
+  position: absolute;
+  width: 500px;
+  right: 0;
+  top: 10%;
+  z-index: 60;
+  bottom: 0px;
 }
 
 #WACContainer.WACContainer .WebChatStyles {

@@ -1,6 +1,6 @@
 import React from 'react'
 import uohwhiteLogo from '../../../assets/images/uoh-white.svg'
-import './logo.css';  // Import the CSS file for styling
+import './logo.css'
 
 const LogoNavbar = () => (
     <div id="homepage"
