@@ -3,8 +3,11 @@
 }
 
 .quicklink-ul {
+    display: flex;
+    flex-direction: column;
     margin: 0%;
     padding: 0%;
+    gap: 1rem;
 }
 
 li {
@@ -14,10 +17,9 @@ li {
 .link-list {
     display: flex;
     align-items: center;
-    gap: 16px;
+    gap: .75rem;
     color: #fff;
     text-align: left;
-    margin-bottom: 1.3rem;
 }
 
 .link-list:hover {
