@@ -1,40 +1,40 @@
-.menu-panel {
-   
-    width: 300px;
-    padding: 20px;
-    height: 60vh; /* Full height */
+#quicklink {
+    padding: 30px 50px;
 }
 
-.menu-item {
-    font-size: 18px;
-    font-weight: 500;
+.quicklink-ul {
+    margin: 0%;
+    padding: 0%;
+}
+
+li {
+    list-style-type: none;
+}
+
+.link-list {
     display: flex;
     align-items: center;
-    justify-content: space-between; /* Spacing for the arrow */
-    padding: 15px;
-    color: #B0B0B0;
+    gap: 16px;
+    color: #fff;
+    text-align: left;
+    margin-bottom: 1.3rem;
+}
+
+.link-list:hover {
     text-decoration: none;
-    cursor: pointer;
-    transition: color 0.3s ease-in-out;
 }
 
-.menu-item:hover {
-    color: #FFFFFF; /* White on hover */
-    font-weight: bold;
+.quicklink-upper {
+    font-size: 16px;
+    margin-top: 0%;
+    margin-bottom: 1.5rem;
+    opacity: .8;
+    text-align: left;
+    letter-spacing: 0.05em;
 }
 
-.active {
-    font-weight: bold;
-    color: #FFFFFF;
-}
-
-.arrow {
-    font-weight: bold;
-    margin-left: auto; /* Aligns to the right */
-}
-
-.menu-item::after {
-    content: '>'; /* Right arrow */
-    font-weight: bold;
-    margin-left: auto; /* Aligns to the right */
+.icon {
+    height: 1em;
+    width: auto;
+    vertical-align: middle;
 }

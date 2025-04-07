@@ -22,7 +22,7 @@ const MenuPanel = () => {
                 {/* <MenuList /> */}
                 <QuickLinks />
                 <SocialLinks />
-            
+
             </div>
         </div>
     );

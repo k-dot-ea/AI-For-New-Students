@@ -1,0 +1,68 @@
+#menu-list {
+    border: 2.5rem;
+}
+
+.menu-list {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu-list li {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    transition: all 0.3s ease;
+}
+
+.menu-list li:hover {
+    gap: 25px;
+}
+
+.menu-list li:hover~li {
+    opacity: 0.8;
+}
+
+/* .menu-panel {
+
+    width: 300px;
+    padding: 20px;
+    height: 60vh;
+}
+
+.menu-item {
+    font-size: 18px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    color: #B0B0B0;
+    text-decoration: none;
+    cursor: pointer;
+    transition: color 0.3s ease-in-out;
+}
+
+.menu-item:hover {
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+.active {
+    font-weight: bold;
+    color: #FFFFFF;
+}
+
+.arrow {
+    font-weight: bold;
+    margin-left: auto;
+}
+
+.menu-item::after {
+    content: '>';
+    font-weight: bold;
+    margin-left: auto;
+} */

@@ -7,7 +7,8 @@
     position: fixed;
     top: 0;
     left: 0;
-    width: 340px;
+    width: 450px;
+    max-width: 450px;
     height: 100vh;
     color: #fff;
     background-color: rgb(14 22 71 / 1);
@@ -23,8 +24,10 @@
 
 #menu-panel {
     display: flex;
+    /* justify-content: center; */
     position: absolute;
     flex-direction: column;
+    width: 450px;
     height: 100%;
     overflow-y: scroll;
 }

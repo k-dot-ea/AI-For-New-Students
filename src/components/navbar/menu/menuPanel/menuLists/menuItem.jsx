@@ -1,6 +1,7 @@
-import React from 'react';
+import React from 'react'
+import './menuList.css'
 
-const MenuItem = ({ title }) => (
+const MenuItem = ({ title, href }) => (
     <li>
         <button
             type="button"
@@ -8,7 +9,7 @@ const MenuItem = ({ title }) => (
             aria-expanded="false"
             aria-controls={`radix-:${title}`}
             data-state="closed"
-            className="opacity-100 group-hover/list:opacity-60 false group/item flex w-full cursor-pointer items-center gap-2 text-[21px] font-bold transition-opacity duration-500 hover:!opacity-100 sm:text-h3"
+            className="menulist-li opacity-100 group-hover/list:opacity-60 false group/item flex w-full cursor-pointer items-center gap-2 text-[21px] font-bold transition-opacity duration-500 hover:!opacity-100 sm:text-h3"
             value={title}
             title={title}
         >
@@ -23,7 +24,6 @@ const MenuItem = ({ title }) => (
         </button>
     </li>
 )
+
+
 export { MenuItem }
-
-
-

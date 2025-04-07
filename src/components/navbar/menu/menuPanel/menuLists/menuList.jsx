@@ -3,8 +3,8 @@ import MenuItem from './menuItem'
 import './menuList.css'
 
 const MenuList = () => (
-    <div className="menu-list">
-        <ul id='Menulist' className="group/list m-4 flex grow flex-col gap-3 sm:gap-4 md:m-10">
+    <div id='menu-list' className='menu-list'>
+        <ul id='Menulist' className='menu-list'>
             <MenuItem title="Study" />
             <MenuItem title="Life at Hull" />
             <MenuItem title="Research" />
