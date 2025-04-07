@@ -4,7 +4,7 @@
 
 
 #panel {
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 0;
     width: 450px;
@@ -24,12 +24,11 @@
 
 #menu-panel {
     display: flex;
-    /* justify-content: center; */
     position: absolute;
     flex-direction: column;
     width: 450px;
-    height: 100%;
-    overflow-y: scroll;
+    height: calc(100% - 10rem);
+    overflow-y: auto;
 }
 
 /* ---------------------------------------------------------------------- */
