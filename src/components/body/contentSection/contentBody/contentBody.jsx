@@ -1,14 +1,13 @@
 import React from 'react'
+import './contentBody.css'
 
 const ContentBody = () => (
     <div class="border1">
-        <div className="flex max-w-full items-center justify-center overflow-hidden" style={{ width: '973px' }}>
-            <div className="text-balanced px-[50px] py-[15px] text-center sm:whitespace-nowrap">
-                <h1 className="welome">
-                    {/* <span>Thinking about your future?</span> */}
-                    {/* <span className="block">So are we.</span> */}
-                </h1>
-            </div>
+        <div className="welcome-container">
+            <h1 className="welcome">
+                {<span>Queries On Your New Journey?</span>}
+                {<span className="block">Ask Us.</span>}
+            </h1>
         </div>
     </div>
 );

@@ -12,11 +12,3 @@
     margin-right: auto;
     z-index: 15;
 }
-
-.content-container {
-    border-left-width: 10px;
-    border-right-width: 10px;
-    --tw-border-opacity: 1;
-    border-color: rgb(215 247 119 / var(--tw-border-opacity));
-    margin-bottom: 70px;
-}

@@ -1,10 +1,17 @@
 .border1 {
-    color: rgb(255, 255, 255 / 1);
-    border-left-width: 10px;
-    border-right-width: 10px;
-    --tw-border-opacity: 1;
-    border-color: rgb(215 247 119 / var(--tw-border-opacity));
+    --tw-text-opacity: 1;
+    color: rgb(255 255 255 / var(--tw-text-opacity));
+    border-left: 10px solid rgb(215, 247, 119);
+    border-right: 10px solid rgb(215, 247, 119);
     margin-bottom: 70px;
+}
+
+.welcome-container {
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 
 h1 {
@@ -12,6 +19,17 @@ h1 {
     font-weight: 500;
     margin: 0;
 }
+
+.block {
+    display: block;
+}
+
+/* @media (min-width: 640px) {
+    .welcome-container {
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+} */
 
 @media (min-width: 768px) {
     h1 {

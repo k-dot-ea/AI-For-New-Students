@@ -19,10 +19,8 @@ const ContentSection = () => {
         //     </div>
         // </div>
         <div id="content">
-            <div class="content-container">
-                <ContentBody />
-                {/* <ContentButtons /> */}
-            </div>
+            <ContentBody />
+            {/* <ContentButtons /> */}
         </div>
     );
 }
