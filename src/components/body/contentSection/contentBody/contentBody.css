@@ -1,12 +1,23 @@
 .border1 {
+    width: 0;
+    overflow: hidden;
     --tw-text-opacity: 1;
     color: rgb(255 255 255 / var(--tw-text-opacity));
     border-left: 10px solid rgb(215, 247, 119);
     border-right: 10px solid rgb(215, 247, 119);
     margin-bottom: 70px;
+    transition: width 1s ease-in-out;
+    display: inline-block;
+    white-space: nowrap;
+    box-sizing: border-box;
+}
+
+.border1.open {
+    width: 100%;
 }
 
 .welcome-container {
+    display: inline-block;
     text-align: center;
     padding-left: 50px;
     padding-right: 50px;

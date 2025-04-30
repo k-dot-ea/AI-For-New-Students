@@ -1,15 +1,23 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './contentBody.css'
 
-const ContentBody = () => (
-    <div class="border1">
-        <div className="welcome-container">
-            <h1 className="welcome">
-                {<span>Queries On Your New Journey?</span>}
-                {<span className="block">Ask Us.</span>}
-            </h1>
+const ContentBody = () => {
+    const [isOpen, setIsOpen] = useState(false);
+
+    React.useEffect(() => {
+        setTimeout(() => setIsOpen(true), 100);
+    }
+    , []);
+    return (
+        <div class={`border1 ${isOpen ? 'open' : ''}`}>
+            <div className="welcome-container">
+                <h1 className="welcome">
+                    {<span>Queries On Your New Journey?</span>}
+                    {<span className="block">Ask Us.</span>}
+                </h1>
+            </div>
         </div>
-    </div>
-);
+    );
+};
 
 export { ContentBody }
