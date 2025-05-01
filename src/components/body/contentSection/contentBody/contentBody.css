@@ -27,7 +27,9 @@
 
 h1 {
     margin-bottom: 0;
+    font-size: 1.8rem;
     font-weight: 500;
+    line-height: 2.15rem;
     margin: 0;
 }
 
@@ -48,4 +50,10 @@ h1 {
         line-height: 4.05rem;
         margin-bottom: 1.5rem;
     }
+}
+
+@media (max-width: 640px) {
+   .border1.open {
+    width: 65%
+   }
 }

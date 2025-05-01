@@ -5,7 +5,7 @@ const ContentBody = () => {
     const [isOpen, setIsOpen] = useState(false);
 
     React.useEffect(() => {
-        setTimeout(() => setIsOpen(true), 100);
+        setTimeout(() => setIsOpen(true), 1000);
     }
     , []);
     return (

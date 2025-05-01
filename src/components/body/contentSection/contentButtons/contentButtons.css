@@ -1,0 +1,57 @@
+.border2 {
+    width: 0;
+    overflow: hidden;
+    gap: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    opacity: 0;
+    transition: width 1s ease-in-out, opacity 1s ease-in-out;
+    white-space: nowrap;
+    box-sizing: border-box;
+}
+
+.border2.open {
+    width: 100%;
+    opacity: 1;
+}
+
+.button1 {
+    width: fit-content;
+    height: 100%;
+    cursor: pointer;
+    --tw-text-opacity: 1;
+    background-color: rgb(245 182 220 / var(--tw-text-opacity));
+    border: none;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.button-1 {
+    display: block;
+    height: 100%;
+    font-size: 1rem;
+    --tw-text-opacity: 1;
+    color: rgb(14 22 71 / var(--tw-text-opacity));
+    line-height: 1.3rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 700;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    z-index: 1;
+    position: relative;
+}
+
+@media (max-width: 640px) {
+    .border2 {
+        flex-direction: column;
+    }
+}
